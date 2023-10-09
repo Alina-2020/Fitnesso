@@ -1,0 +1,88 @@
+.footer {
+    background: $gulf-blue;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &-left {
+        padding-top: 100px;
+        color: $white;
+        margin-bottom: 60px;
+    }
+    &__contacts-title {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    &__licencing-title {
+        padding-top: 30px;
+        font-size: 13px;
+        padding-bottom: 14px;
+        
+
+        &-list {
+            &:not(:last-child) {
+                padding-bottom: 5px;
+            }
+        }
+
+    }
+
+    
+
+    &-right {
+        padding-top: 100px;
+        color: $white;
+    }
+    &__explore-title {
+        font-size: 14px;
+        padding-bottom: 14px;
+        font-family: $monserrat;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    &__footer-ex {
+        font-size: 19px;
+    }
+
+    &__li {
+        display: flex;
+        gap: 65px;
+    }
+        &-images__p {
+            border-style: solid;
+            border-radius: 5px;
+            border-color: $white;
+            padding: 15px 23px 13px 23px;
+            background-color: $white;
+            margin-bottom: 100px;
+        }
+        &-images__stripe {
+            border-style: solid;
+            border-radius: 5px;
+            border-color: $white;
+            padding: 15px 13px 13px 15px;
+            background-color: $white;
+            margin-bottom: 100px;
+        }
+        &-images__three {
+            border-style: solid;
+            border-radius: 5px;
+            border-color: $white;
+            padding: 15px 13px 15px 13px;
+            background-color: $white;
+            margin-bottom: 100px;
+        }
+        &-images__master {
+            border-style: solid;
+            border-radius: 5px;
+            border-color: $white;
+            padding: 15px 17px 15px 17px;
+            background-color: $white;
+            margin-bottom: 100px;
+        }
+    
+        
+    }

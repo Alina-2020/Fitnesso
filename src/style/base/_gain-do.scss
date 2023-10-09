@@ -1,0 +1,14 @@
+.gain-do {
+    padding: 234px 0;
+    background: url('./img/assets/images/gain-do.jpg') center / cover no-repeat;
+    margin-bottom: 100px;
+    
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        font-family: $comic-sans;
+        letter-spacing: 1px;
+    }
+}

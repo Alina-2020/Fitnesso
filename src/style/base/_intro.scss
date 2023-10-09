@@ -1,0 +1,39 @@
+.intro {
+    background-color: $athens-gray;
+    padding: 79px 0 150px;
+
+    &__name {
+        font-family: $comic-sans;
+        font-size: 64px;
+        color: $cascade;
+        margin-left: 120px;
+        line-height: 1;
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 80px;
+    }
+
+    &__right {
+        padding-top: 118px;
+    }
+
+    &__greeting {
+        margin-bottom: 32px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    &__title {
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 31px;
+    }
+
+    &__desc {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,61 @@
+.fitness-plans {
+    background: $athens-gray;
+    padding: 154px 0 150px;
+
+    &__title {
+        max-width: 787px;
+        margin-bottom: 31px;
+    }
+
+    &__subtitle {
+        max-width: 590px;
+        margin-bottom: 25px;
+    }
+
+    &__book-btn {
+        margin-bottom: 100px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &-container {
+            padding: 0 30px 29px 30px;
+        }
+
+        &-img {
+            margin-bottom: 30px;
+        }
+
+        &-item {
+            background-color: $white;
+        }
+
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 14px;
+        }
+
+        &-time {
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        &-title {
+            font-size: 24px;
+            margin-bottom: 14px;
+        }
+
+        &-link {
+            font-size: 14px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

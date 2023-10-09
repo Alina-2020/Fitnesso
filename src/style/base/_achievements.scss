@@ -1,0 +1,19 @@
+.achievements {
+    background-color: $gulf-blue;
+    padding: 93px 0 121px;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+
+        &-link {
+            font-size: 14px;
+            text-transform: uppercase; 
+            color: #DFDFDF;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

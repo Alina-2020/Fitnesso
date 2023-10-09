@@ -1,0 +1,29 @@
+.custom-plan {
+    padding-top: 60px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+
+    &__left {
+        padding-top: 100px;
+    }
+
+    &__title {
+        max-width: 523px;
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        max-width: 486px;
+        margin-bottom: 25px;
+    }
+
+    &__img-men {
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,33 @@
+.header {
+    padding: 7px 0;
+    background: $white;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    &__nav {
+        margin-left: auto;
+    }
+
+    &__list {
+        display: flex;
+        gap: 40px;
+
+        &-link {
+            font-size: 14px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__cart-btn {
+        all: unset;
+        cursor: pointer;
+    }
+}
